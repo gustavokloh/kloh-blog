@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+When I started to learn Rails a few years ago I never built a basic blog like lots of tutorials says to do. Now, I want share some content and why not to back to basics and build my own blog from scratch and review some concepts or new things to got updated about Ruby on Rails and stuff?
 
-Things you may want to cover:
+## Running
 
-* Ruby version
+To run this code you'll need installed Ruby 2.6 and Postgres. Follow these steps:
 
-* System dependencies
+* Clone repository
+* Run `bundle install`
+* Create you postgres user:
 
-* Configuration
+```
+createuser -sW <your-user> -h localhost      # Enter your password
+```
+Then, replicate user databse data to `database.yml` file.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Have fun!
